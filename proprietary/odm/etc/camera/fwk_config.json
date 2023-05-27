@@ -1,0 +1,35 @@
+{
+    "default": {
+        "feature_resolution_enable": false,
+        "feature_resolution_SM4350": true
+    },
+    "com.google.android.apps.messaging" : {
+        "feature_resolution_enable": false,
+        "maxWidthFilterForNotAddSizeAPI1": 1280,
+        "maxHeightFilterForNotAddSizeAPI1": 1280
+    },
+    "com.whatsapp": {
+        "limitpictureratio_20_9": true
+    },
+    "autotest.oppo.com.simulatedlivebroadcast": {
+        "feature_resolution_enable": true,
+        "previewSizeForAPI1Width": 1920,
+        "previewSizeForAPI1Height": 1080
+    },
+    "net.one97.paytm": {
+        "feature_resolution_enable": true,
+        "needAllPreviewSizeForAPI1": true,
+        "previewSizeForAPI1Width": 1280,
+        "previewSizeForAPI1Height": 768
+    },
+    "com.tencent.mm" : {
+        "feature_resolution_enable": false,
+        "maxWidthFilterForNotAddSizeAPI1": 1920,
+        "maxHeightFilterForNotAddSizeAPI1": 1080
+    },
+    "com.android.mms": {
+        "feature_resolution_enable": true,
+        "previewSizeForAPI1Width": 1280,
+        "previewSizeForAPI1Height": 720
+    }
+}
