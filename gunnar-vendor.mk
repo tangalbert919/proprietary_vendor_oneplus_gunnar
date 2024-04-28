@@ -478,6 +478,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/gunnar/proprietary/odm/etc/sensor/sensor_config.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/sensor_config.json \
     vendor/oneplus/gunnar/proprietary/odm/etc/wifi/bdwlan.bin:$(TARGET_COPY_OUT_ODM)/etc/wifi/bdwlan.bin \
     vendor/oneplus/gunnar/proprietary/odm/etc/wifi/regdb.bin:$(TARGET_COPY_OUT_ODM)/etc/wifi/regdb.bin \
+    vendor/oneplus/gunnar/proprietary/odm/firmware/tfa98xx.cnt:$(TARGET_COPY_OUT_ODM)/firmware/tfa98xx.cnt \
     vendor/oneplus/gunnar/proprietary/odm/firmware/tp/21095/FW_FT3518_SAMSUNG.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/21095/FW_FT3518_SAMSUNG.img \
     vendor/oneplus/gunnar/proprietary/odm/firmware/tp/21095/FW_FT3518_SAMSUNG_FAE.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/21095/FW_FT3518_SAMSUNG_FAE.img \
     vendor/oneplus/gunnar/proprietary/odm/firmware/tp/21095/FW_GT9886_SAMSUNG.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/21095/FW_GT9886_SAMSUNG.img \
@@ -1845,6 +1846,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libfastcvopt \
     libthermalclient \
+    CACertService \
     CneApp \
     IWlanService \
     TimeService \
