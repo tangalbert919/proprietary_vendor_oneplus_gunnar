@@ -624,15 +624,15 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/gunnar/proprietary/odm/lib64/vendor.oplus.hardware.orms@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.orms@1.0.so \
     vendor/oneplus/gunnar/proprietary/odm/lib64/vendor.oplus.hardware.performance@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.performance@1.0.so \
     vendor/oneplus/gunnar/proprietary/odm/lib64/vendor.oplus.hardware.radio@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.radio@1.0.so \
-    vendor/oneplus/gunnar/proprietary/odm/vendor/firmware/goodixfp.b00:$(TARGET_COPY_OUT_ODM)/vendor/firmware/goodixfp.b00 \
-    vendor/oneplus/gunnar/proprietary/odm/vendor/firmware/goodixfp.b01:$(TARGET_COPY_OUT_ODM)/vendor/firmware/goodixfp.b01 \
-    vendor/oneplus/gunnar/proprietary/odm/vendor/firmware/goodixfp.b02:$(TARGET_COPY_OUT_ODM)/vendor/firmware/goodixfp.b02 \
-    vendor/oneplus/gunnar/proprietary/odm/vendor/firmware/goodixfp.b03:$(TARGET_COPY_OUT_ODM)/vendor/firmware/goodixfp.b03 \
-    vendor/oneplus/gunnar/proprietary/odm/vendor/firmware/goodixfp.b04:$(TARGET_COPY_OUT_ODM)/vendor/firmware/goodixfp.b04 \
-    vendor/oneplus/gunnar/proprietary/odm/vendor/firmware/goodixfp.b05:$(TARGET_COPY_OUT_ODM)/vendor/firmware/goodixfp.b05 \
-    vendor/oneplus/gunnar/proprietary/odm/vendor/firmware/goodixfp.b06:$(TARGET_COPY_OUT_ODM)/vendor/firmware/goodixfp.b06 \
-    vendor/oneplus/gunnar/proprietary/odm/vendor/firmware/goodixfp.b07:$(TARGET_COPY_OUT_ODM)/vendor/firmware/goodixfp.b07 \
-    vendor/oneplus/gunnar/proprietary/odm/vendor/firmware/goodixfp.mdt:$(TARGET_COPY_OUT_ODM)/vendor/firmware/goodixfp.mdt \
+    vendor/oneplus/gunnar/proprietary/odm/vendor/firmware/ancap64.b00:$(TARGET_COPY_OUT_ODM)/vendor/firmware/ancap64.b00 \
+    vendor/oneplus/gunnar/proprietary/odm/vendor/firmware/ancap64.b01:$(TARGET_COPY_OUT_ODM)/vendor/firmware/ancap64.b01 \
+    vendor/oneplus/gunnar/proprietary/odm/vendor/firmware/ancap64.b02:$(TARGET_COPY_OUT_ODM)/vendor/firmware/ancap64.b02 \
+    vendor/oneplus/gunnar/proprietary/odm/vendor/firmware/ancap64.b03:$(TARGET_COPY_OUT_ODM)/vendor/firmware/ancap64.b03 \
+    vendor/oneplus/gunnar/proprietary/odm/vendor/firmware/ancap64.b04:$(TARGET_COPY_OUT_ODM)/vendor/firmware/ancap64.b04 \
+    vendor/oneplus/gunnar/proprietary/odm/vendor/firmware/ancap64.b05:$(TARGET_COPY_OUT_ODM)/vendor/firmware/ancap64.b05 \
+    vendor/oneplus/gunnar/proprietary/odm/vendor/firmware/ancap64.b06:$(TARGET_COPY_OUT_ODM)/vendor/firmware/ancap64.b06 \
+    vendor/oneplus/gunnar/proprietary/odm/vendor/firmware/ancap64.b07:$(TARGET_COPY_OUT_ODM)/vendor/firmware/ancap64.b07 \
+    vendor/oneplus/gunnar/proprietary/odm/vendor/firmware/ancap64.mdt:$(TARGET_COPY_OUT_ODM)/vendor/firmware/ancap64.mdt \
     vendor/oneplus/gunnar/proprietary/system/etc/sysconfig/qti_whitelist.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/qti_whitelist.xml \
     vendor/oneplus/gunnar/proprietary/system_ext/bin/dpmd:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/dpmd \
     vendor/oneplus/gunnar/proprietary/system_ext/bin/tcmd:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/tcmd \
