@@ -497,10 +497,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/gunnar/proprietary/vendor/etc/camera/M_Attribute_Gender_Age_1.0.model.hardcode:$(TARGET_COPY_OUT_VENDOR)/etc/camera/M_Attribute_Gender_Age_1.0.model.hardcode \
     vendor/oneplus/gunnar/proprietary/vendor/etc/camera/M_FaceAttribute_RGB_age_gender_1.7.1.model.hardcode:$(TARGET_COPY_OUT_VENDOR)/etc/camera/M_FaceAttribute_RGB_age_gender_1.7.1.model.hardcode \
     vendor/oneplus/gunnar/proprietary/vendor/etc/init/ipa_fws.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/ipa_fws.rc \
-    vendor/oneplus/gunnar/proprietary/vendor/etc/lm/AdaptLaunchFeature.xml:$(TARGET_COPY_OUT_VENDOR)/etc/lm/AdaptLaunchFeature.xml \
-    vendor/oneplus/gunnar/proprietary/vendor/etc/lm/AppClassifierFeature.xml:$(TARGET_COPY_OUT_VENDOR)/etc/lm/AppClassifierFeature.xml \
-    vendor/oneplus/gunnar/proprietary/vendor/etc/lm/GameOptimizationFeature.xml:$(TARGET_COPY_OUT_VENDOR)/etc/lm/GameOptimizationFeature.xml \
-    vendor/oneplus/gunnar/proprietary/vendor/etc/lm/sPLHFeature.xml:$(TARGET_COPY_OUT_VENDOR)/etc/lm/sPLHFeature.xml \
     vendor/oneplus/gunnar/proprietary/vendor/etc/wifi/p2p_supplicant_overlay.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/p2p_supplicant_overlay.conf \
     vendor/oneplus/gunnar/proprietary/vendor/etc/wifi/wpa_supplicant_overlay.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/wpa_supplicant_overlay.conf \
     vendor/oneplus/gunnar/proprietary/vendor/firmware/a615_zap.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/a615_zap.b00 \
@@ -684,9 +680,7 @@ PRODUCT_PACKAGES += \
     libOppoCentorStage \
     libSonyIMX471RmscLibrary \
     libVideoEnhance \
-    libadaptlaunch \
     libaidenoiser \
-    libappclassifier \
     libbitmlengine \
     libbitmlenginev2 \
     libcamera_nn_stub \
@@ -706,13 +700,9 @@ PRODUCT_PACKAGES += \
     libcvface_api \
     libcvface_fd_api \
     libfcell \
-    libgameoptfeature \
     libipebpsstriping \
     libjpege \
-    liblmutils-ns \
     libmctfengine_stub \
-    libmemperfd \
-    libmeters-ns \
     libmidasserviceintf \
     libmmcamera_bestats \
     libmmcamera_cac3 \
@@ -731,7 +721,6 @@ PRODUCT_PACKAGES += \
     libqll10 \
     libqllengine \
     libremosaic_wrapper \
-    libsplh \
     libswregistrationalgo \
     libsynx \
     libtfestriping \
@@ -739,8 +728,6 @@ PRODUCT_PACKAGES += \
     sensors.ssc \
     vendor.oplus.hardware.cammidasservice@1.0 \
     vendor.qti.hardware.camera.postproc@1.0-service-impl \
-    vendor.qti.memory.pasrmanager@1.0 \
-    vendor.qti.memory.pasrmanager@1.1 \
     libc++_shared \
     vendor.oplus.hardware.performance@1.0 \
     anc.capacitive.hal \
